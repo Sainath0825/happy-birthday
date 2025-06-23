@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Card</title>
+  <link rel="stylesheet" href="styles3.css" />
+</head>
+<body>
+  <audio id="bgMusic" autoplay loop>
+    <source src="assets/music/birthday2.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="card-wrapper" id="cardWrapper">
+    <div class="card" id="card">
+      <div class="card-front">
+        🎁 Click to Open
+      </div>
+      <div class="card-inner">
+        <div class="message">
+          <h2>Happy Birthday <span class="username"></span>!</h2>
+          <p>To the best sister in the world —<br>
+          Thank you for being my friend, my cheerleader, and my forever partner-in-crime. 🎉💖<br>
+          Thank you for being the sister I got to choose — the one who always shows up.<br>
+          Here's to more unforgettable memories and all the love you deserve.🎂💫💖</p>
+          <p>  -Your Brother</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button id="musicToggle">🔊</button>
+    <button id="replayBtn">⏪</button>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
